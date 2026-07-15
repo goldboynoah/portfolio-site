@@ -28,5 +28,35 @@
     "significance": "The findings link everyday diet to measurable dental effects, showing that acidic fruits can erode enamel with prolonged exposure — reinforcing the value of rinsing after acidic food and connecting basic acid-base chemistry to real biological outcomes.",
     "pdf": "assets/papers/citrus-lemon-lime-enamel.pdf",
     "tags": ["dental health", "acid erosion", "enamel demineralization", "t-test"]
+  },
+  {
+    "id": "RES-2026-003",
+    "slug": "temperature-effect-aspirin-hydrolysis-rate",
+    "title": "Effect of Temperature on the Hydrolysis Rate of Aspirin",
+    "category": "Chemistry",
+    "date": "2026-03-01",
+    "authors": ["Noah"],
+    "abstract": "This study examined how temperature affects the rate at which aspirin breaks down in an acidic solution. pH was measured over time at different temperatures, showing that higher temperatures caused faster hydrolysis and a more rapid decrease in pH.",
+    "researchQuestion": "How does temperature affect the rate of aspirin hydrolysis in an acidic solution?",
+    "methodology": "Aspirin was mixed with hydrochloric acid, and the solution was heated to temperatures between 30°C and 70°C. pH changes were monitored over time using a calibrated pH probe, with each temperature tested five times.",
+    "findings": "Higher temperatures increased the rate of aspirin hydrolysis, with the fastest reaction occurring at 70°C, consistent with the expected relationship between temperature and reaction rate.",
+    "significance": "The study demonstrates how temperature influences chemical reaction rates and highlights its importance in pharmaceutical stability and reaction kinetics.",
+    "pdf": "assets/papers/aspirin-hydrolysis-temperature.pdf",
+    "tags": ["reaction kinetics", "hydrolysis", "pharmaceutical chemistry", "pH"]
+  },
+  {
+    "id": "RES-2026-004",
+    "slug": "ethanol-concentration-beetroot-membrane-permeability",
+    "title": "Effect of Ethanol Concentration on Beetroot Cell Membrane Permeability",
+    "category": "Biology",
+    "date": "2026-04-01",
+    "authors": ["Noah"],
+    "abstract": "This study investigated how different concentrations of ethanol affect the permeability of beetroot cell membranes. Membrane damage was measured by the amount of red pigment released from the cells, using a colorimeter. Results showed that higher ethanol concentrations caused greater pigment leakage, indicating increased membrane permeability.",
+    "researchQuestion": "How does ethanol concentration affect the permeability of beetroot cell membranes?",
+    "methodology": "Beetroot cylinders were placed in ethanol solutions ranging from 20% to 100%. After exposure, the absorbance of the surrounding solution was measured with a colorimeter, with each concentration tested five times under controlled conditions.",
+    "findings": "Higher ethanol concentrations caused greater pigment leakage, showing that increasing ethanol concentration increases cell membrane permeability.",
+    "significance": "The study demonstrates how ethanol can damage cell membranes and provides insight into membrane structure and the effects of chemical substances on living cells.",
+    "pdf": "assets/papers/ethanol-beetroot-membrane-permeability.pdf",
+    "tags": ["cell membrane", "permeability", "ethanol", "colorimetry"]
   }
 ]
