@@ -58,5 +58,20 @@
     "significance": "The study demonstrates how ethanol can damage cell membranes and provides insight into membrane structure and the effects of chemical substances on living cells.",
     "pdf": "assets/papers/ethanol-beetroot-membrane-permeability.pdf",
     "tags": ["cell membrane", "permeability", "ethanol", "colorimetry"]
+  },
+  {
+    "id": "RES-2026-005",
+    "slug": "government-intervention-price-floors-monetary-policy-tariffs",
+    "title": "Government Intervention in Modern Economies: Price Floors, Monetary Policy, and Trade Tariffs",
+    "category": "Economics",
+    "date": "2025-12-01",
+    "authors": ["Noah"],
+    "abstract": "A collection of three short economic commentaries examining real-world government interventions: a minimum price floor on alcohol in Scotland, an interest rate cut by India's central bank, and US tariffs on Indian exports. Each case is analyzed using standard microeconomic and macroeconomic models to assess effects on price, quantity, market efficiency, and economic well-being.",
+    "researchQuestion": "How do different forms of government intervention — price floors, monetary policy, and trade tariffs — affect market outcomes, efficiency, and economic well-being?",
+    "methodology": "Each commentary applies relevant economic models (supply and demand, externality analysis, AD-AS diagrams, and tariff-incidence diagrams) to a real news article covering a government intervention, evaluating the likely effects on consumers, producers, and the broader economy.",
+    "findings": "A minimum price floor on alcohol reduced consumption only modestly due to inelastic demand, despite an associated fall in alcohol-related deaths. An interest rate cut in India was found likely to stimulate aggregate demand and improve economic well-being, particularly for lower-income households, though subject to policy lags. US tariffs on Indian exports were projected to significantly reduce export revenue and create a recessionary gap, though India's largely domestic-demand economy was found to offer some cushioning effect.",
+    "significance": "Together, the three commentaries show how foundational economic models — price floors, AD-AS analysis, and tariff incidence — can be applied to interpret current, real-world policy decisions and their effects on markets and welfare.",
+    "pdf": "assets/papers/economic-interventions-commentary.pdf",
+    "tags": ["microeconomics", "macroeconomics", "government intervention", "trade policy"]
   }
 ]
