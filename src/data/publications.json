@@ -1,0 +1,31 @@
+[
+  {
+    "id": "RES-2026-001",
+    "slug": "citrus-fruits-enamel-demineralization",
+    "title": "To What Extent Do Citrus Fruits Contribute to Enamel Demineralization?",
+    "category": "Biology",
+    "date": "2026-03-14",
+    "authors": ["Your Name"],
+    "abstract": "This study investigates the erosive effect of common citrus fruits on tooth enamel by measuring surface hardness change after controlled acid exposure, comparing lemon, orange, and grapefruit juice against a water control.",
+    "researchQuestion": "To what extent does exposure to citrus fruit juice contribute to enamel demineralization compared to a neutral control, and does this effect vary by fruit type?",
+    "methodology": "Extracted bovine enamel samples were divided into four groups and immersed in lemon, orange, grapefruit juice, or distilled water for a fixed exposure period. Surface microhardness was measured before and after exposure using a Vickers hardness tester, and percentage change in hardness was compared across groups using one-way ANOVA.",
+    "findings": "All three citrus juices produced statistically significant enamel softening relative to the water control (p < 0.05), with lemon juice producing the largest mean hardness loss, consistent with its lower pH. Orange juice produced the smallest effect among the three fruits tested.",
+    "significance": "The results support existing dental health guidance to limit direct, prolonged citrus exposure to enamel and rinse with water afterward, and offer a simple comparative reference for relative erosive risk across common citrus fruits.",
+    "pdf": "assets/papers/citrus-enamel-demineralization.pdf",
+    "tags": ["dental health", "acid erosion", "experimental design"]
+  },
+  {
+    "id": "RES-2026-002",
+    "slug": "citrus-fruits-enamel-demineralization-pig-teeth",
+    "title": "The Effect of Citrus Fruits on Human Enamel Demineralisation: An Investigation Using Pig Teeth as a Model",
+    "category": "Biology",
+    "date": "2026-03-01",
+    "authors": ["Noah"],
+    "abstract": "This study examines how citrus fruit acidity affects tooth enamel, using pig incisors as a model for human teeth. Ten teeth were soaked in lemon juice and ten in lime juice for seven days, and mass loss was measured as an indicator of demineralization. Lemon juice (pH 1.54) caused greater average mass loss (0.52 g) than lime juice (pH 1.90, 0.35 g), consistent with the hypothesis that lower pH drives more enamel corrosion. A t-test gave p = 0.238, showing the difference wasn't statistically significant at 95% confidence, though the trend matched predicted chemistry.",
+    "researchQuestion": "To what extent do citrus fruits contribute to enamel demineralization of pig teeth?",
+    "methodology": "20 pig incisors (10 per juice type) were sterilized, weighed, and submerged in fresh lemon or lime juice for 7 days under controlled temperature and volume conditions. Mass and pH were recorded before and after, then compared using mean mass loss and a two-sample t-test.",
+    "findings": "All 20 teeth lost mass, confirming demineralization in both groups. Lemon-soaked teeth lost more mass (0.52 g) than lime-soaked teeth (0.35 g), matching lemon's lower pH and higher H+ concentration. The difference was not statistically significant (p = 0.238), so the null hypothesis wasn't rejected, though results still followed the expected chemical trend despite limited statistical strength.",
+    "significance": "The findings link everyday diet to measurable dental effects, showing that acidic fruits can erode enamel with prolonged exposure — reinforcing the value of rinsing after acidic food and connecting basic acid-base chemistry to real biological outcomes.",
+    "pdf": "assets/papers/citrus-lemon-lime-enamel.pdf",
+    "tags": ["dental health", "acid erosion", "enamel demineralization", "t-test"]
+  },

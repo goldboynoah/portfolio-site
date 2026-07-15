@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Your Name</title>
+<meta name="description" content="Get in touch with Your Name — email, LinkedIn, resume, and a direct contact form." />
+<link rel="canonical" href="https://www.yourdomain.com/contact.html" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  if (localStorage.getItem("theme") === "dark") document.documentElement.setAttribute("data-theme", "dark");
+</script>
+</head>
+<body>
+<div id="header-slot"></div>
+
+<header class="hero" style="padding:64px 0 40px;">
+  <div class="wrap">
+    <span class="eyebrow">Contact</span>
+    <h1 style="max-width:16ch;">Let's talk about the research</h1>
+    <p class="lede">Whether you're a recruiter, an admissions reader, a fellow student, or just curious about a paper — reach out.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:40px;">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Direct</h2>
+      <ul class="contact-list">
+        <li>✉ <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>in <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></li>
+        <li>↓ <a href="/assets/papers/resume.pdf" target="_blank" rel="noopener">Download resume (PDF)</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Send a message</h2>
+      <!--
+        Netlify Forms: if you deploy on Netlify, this form works with
+        zero backend code as soon as `data-netlify="true"` is present.
+        Deploying elsewhere? See README.md for the Formspree alternative
+        (change the form action to your Formspree endpoint instead).
+      -->
+      <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" style="justify-self:start;">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div id="footer-slot"></div>
+<script src="/assets/js/partials.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

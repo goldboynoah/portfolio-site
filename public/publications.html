@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Publications — Your Name</title>
+<meta name="description" content="Full catalog of independent research publications by Your Name across biology, chemistry, economics, and mathematics — with abstracts, methodology, findings, and PDFs." />
+<link rel="canonical" href="https://www.yourdomain.com/publications.html" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  if (localStorage.getItem("theme") === "dark") document.documentElement.setAttribute("data-theme", "dark");
+</script>
+</head>
+<body>
+<div id="header-slot"></div>
+
+<header class="hero" style="padding:64px 0 40px;">
+  <div class="wrap">
+    <span class="eyebrow">The catalog</span>
+    <h1 style="max-width:20ch;">Publications</h1>
+    <p class="lede">Every paper listed here includes the research question, methodology, key findings, and a downloadable PDF of the full text — plus a ready-to-use citation.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:40px;">
+  <div class="wrap">
+    <div class="filter-bar">
+      <input class="search-input" id="pub-search" type="text" placeholder="Search by title or topic…" aria-label="Search publications" />
+      <button class="chip active" data-category="All">All</button>
+      <button class="chip" data-category="Biology">Biology</button>
+      <button class="chip" data-category="Chemistry">Chemistry</button>
+      <button class="chip" data-category="Economics">Economics</button>
+      <button class="chip" data-category="Mathematics">Mathematics</button>
+      <button class="chip" data-category="Other">Other Projects</button>
+    </div>
+
+    <div class="pub-grid">
+      <!-- PUB_LIST_START -->
+  <article class="pub-card" data-title="to what extent do citrus fruits contribute to enamel demineralization?" data-category="Biology" data-tags="dental health,acid erosion,experimental design">
+    <div class="pub-meta-row">
+      <span class="tag">Biology</span>
+      <span>RES-2026-001</span>
+    </div>
+    <h3><a href="/publications/citrus-fruits-enamel-demineralization/">To What Extent Do Citrus Fruits Contribute to Enamel Demineralization?</a></h3>
+    <p class="abstract">This study investigates the erosive effect of common citrus fruits on tooth enamel by measuring surface hardness change after controlled acid exposure, comparing lemon, orange, and grapefruit juice against a water control.</p>
+    <div class="pub-meta-row" style="border-top:1px solid var(--rule);padding-top:10px;margin-top:2px;">
+      <span>March 14, 2026</span>
+      <div class="pub-links">
+        <a href="/publications/citrus-fruits-enamel-demineralization/">Read summary</a>
+        <a href="/assets/papers/citrus-enamel-demineralization.pdf" target="_blank" rel="noopener">PDF ↗</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card" data-title="local minimum wage increases and teen employment: a county-level comparison" data-category="Economics" data-tags="labor economics,difference-in-differences,public policy">
+    <div class="pub-meta-row">
+      <span class="tag">Economics</span>
+      <span>RES-2025-004</span>
+    </div>
+    <h3><a href="/publications/minimum-wage-teen-employment/">Local Minimum Wage Increases and Teen Employment: A County-Level Comparison</a></h3>
+    <p class="abstract">A comparative analysis of teen employment rates in neighboring counties with differing minimum wage policies, using publicly available labor statistics to examine short-run employment effects.</p>
+    <div class="pub-meta-row" style="border-top:1px solid var(--rule);padding-top:10px;margin-top:2px;">
+      <span>November 2, 2025</span>
+      <div class="pub-links">
+        <a href="/publications/minimum-wage-teen-employment/">Read summary</a>
+        <a href="/assets/papers/minimum-wage-teen-employment.pdf" target="_blank" rel="noopener">PDF ↗</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card" data-title="modeling local irregularities in prime gap distribution under 10^7" data-category="Mathematics" data-tags="number theory,computational math,python">
+    <div class="pub-meta-row">
+      <span class="tag">Mathematics</span>
+      <span>RES-2025-002</span>
+    </div>
+    <h3><a href="/publications/prime-gap-distribution-model/">Modeling Local Irregularities in Prime Gap Distribution Under 10^7</a></h3>
+    <p class="abstract">An exploratory computational study of prime gap size distribution below ten million, testing how well a simple probabilistic model predicts observed local clustering.</p>
+    <div class="pub-meta-row" style="border-top:1px solid var(--rule);padding-top:10px;margin-top:2px;">
+      <span>June 20, 2025</span>
+      <div class="pub-links">
+        <a href="/publications/prime-gap-distribution-model/">Read summary</a>
+        <a href="/assets/papers/prime-gap-distribution-model.pdf" target="_blank" rel="noopener">PDF ↗</a>
+      </div>
+    </div>
+  </article>
+<!-- PUB_LIST_END -->
+    </div>
+    <p class="empty-state" id="empty-state">No publications match that search yet.</p>
+  </div>
+</section>
+
+<div id="footer-slot"></div>
+<script src="/assets/js/partials.js"></script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
